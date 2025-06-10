@@ -54,4 +54,5 @@ type Unit struct {
 	InternalID int     `xml:"dataSetInternalID,attr"`
 	Name       string  `xml:"name"`
 	Factor     float64 `xml:"meanValue"`
+	UnitID     string  `xml:"unitId,attr"`
 }
