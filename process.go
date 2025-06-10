@@ -168,6 +168,7 @@ type Exchange struct {
 	Variable        string        `xml:"referenceToVariable,omitempty"`
 	ResultingAmount float64       `xml:"resultingAmount"`
 	Location        string        `xml:"location"`
+	UnitUUID        string        `xml:"olca:unitId,arrt"`
 	EpdExt          *EpdResultExt `xml:"http://lca.jrc.it/ILCD/Common other"`
 }
 
